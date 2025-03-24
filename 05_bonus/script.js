@@ -9,15 +9,15 @@ const name = 'Mario';
 
 
 // Dichiara la funzione qui.
-const myFunction = (dates) => {
+const myFunction = (time) => {
     let date = new Date ();
     let hour = date.getHours()
 
     if(hour <=13){
-        console.log('buongiorno' +' ' + (dates))
+        console.log('buongiorno' +' ' + (time))
     }
     else if(hour <= 17){
-        console.log('buon pomeriggio' +' ' + (dates))
+        console.log('buon pomeriggio' +' ' + (time))
     }
     else { console.log ('buonasera')}
 }

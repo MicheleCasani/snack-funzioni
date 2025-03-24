@@ -9,7 +9,7 @@ const myFunction = (vocals) => {
     let newArray = []
     let text = vocals.split('')
     for(let i = 0; i < text.length; i++){
-        if(text[i]=== arrayVocals){
+        if(arrayVocals.includes(text[i])){
             newArray.push(text[i])
         }
     }
@@ -17,7 +17,6 @@ const myFunction = (vocals) => {
 }
 
 // Invoca la funzione qui e stampa il risultato in console
-
-
+console.log(myFunction(word).length + ' ('+ myFunction(word) + ')');
 
 //Risultato atteso se si passa 'javascript': 3 (a, a, i)

@@ -9,7 +9,14 @@ const name = 'Mario';
 
 
 // Dichiara la funzione qui.
+const myFunction = (name) => {
+    let date = new Date ();
+    let hour = date.getHours()
 
+    if(hour < 13){
+        console.log(buongiorno + (name))
+    }
+}
 
 // Invoca la funzione qui e stampa il risultato in console
 

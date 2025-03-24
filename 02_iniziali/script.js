@@ -4,8 +4,13 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 
 
 // Dichiara la funzione qui.
-
-
+const myFunction = (array) => {
+    let newArray = []
+    for (let i = 0; i < array.length; i++) {
+        newArray.push (array[i].charAt(0));
+    }
+}
+return newArray;
 // Invoca la funzione qui e stampa il risultato in console
 
 

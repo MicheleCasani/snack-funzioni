@@ -14,7 +14,10 @@ const myFunction = (name) => {
     let hour = date.getHours()
 
     if(hour < 13){
-        console.log(buongiorno + (name))
+        console.log('buongiorno' + (name))
+    }
+    else if(hour < 17){
+        console.log('buon pomeriggio' + (name))
     }
 }
 

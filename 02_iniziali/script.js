@@ -9,10 +9,11 @@ const myFunction = (array) => {
     for (let i = 0; i < array.length; i++) {
         newArray.push (array[i].charAt(0));
     }
+    return newArray;
 }
-return newArray;
-// Invoca la funzione qui e stampa il risultato in console
 
+// Invoca la funzione qui e stampa il risultato in console
+console.log(myFunction(names));
 
 
 //Risultato atteso: ["A", "L", "M", "A", "G", "A"]
